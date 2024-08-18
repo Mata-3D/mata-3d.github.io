@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Quiz Gradder</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="preload" href="winbox.bundle.min.js" as="script">
+  <link type="text/css" rel="stylesheet" href="standard.css"/>
+  <style>
+    body{
+      background-color: #000;
+    }
+    textarea {
+    resize: none;
+    }
+
+    .winbox.white{
+      background:#fff
+    }
+    .winbox.white .wb-title{
+      color:#000
+    }.winbox.white .wb-control{
+      filter:invert(1)
+    }
+
+    .winbox.dark{
+      background:#414040
+    }
+    .winbox.dark .wb-body {
+    /* set the width of window border via margin: */
+    margin: 4px;
+    color: #fff;
+    background: #131820;
+    }
+
+    .winbox.dark .wb-title{
+      color:#ebe7e7
+    }.winbox.dark .wb-control{
+      filter:invert(1)
+    }
+
+  </style>
+</head>
+<body>
+  <!-- JS INCLUDES -->
+  <script src__="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <script src__="//mozilla.github.io/pdf.js/build/pdf.mjs" type="module"></script>
+  <script src__="https://cdnjs.com/libraries/pdf.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src__="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.5.136/pdf.min.mjs" type="module"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="winbox.bundle.min.js" async></script>
+  <script src="keys.js" async></script>
+ 
+  <!-- My Stuff -->
+  <script type="module" src="index.js"></script>  
+  
+</body>
+</html>
